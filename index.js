@@ -4,7 +4,7 @@ let express         = require("express"),
 
 
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://admin:thienthuan1@ds155864.mlab.com:55864/testdict",{ useNewUrlParser: true });
+mongoose.connect("mongodb://admin:thienthuan1@ds155864.mlab.com:55774/testdict",{ useNewUrlParser: true });
 var catSchema = new mongoose.Schema({
    name: String,
    age: Number,
